@@ -3,7 +3,7 @@
 Plugin Name: WP GitHub Shortcode
 Plugin URI: https://github.com/iGARET/WPGitHubShortcode
 Description: A quick, easy, and sexy shortcode for displaying a "get on github" button in a WordPress post.
-Version: 0.1
+Version: 1.0
 Author: iGARET
 Author URI: http://igaret.com
 */
