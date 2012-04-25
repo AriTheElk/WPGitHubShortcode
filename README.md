@@ -1,8 +1,11 @@
-## WordPress Facebook Timestamp (WPFBTimestamp)
-A FaceBook inspired "Time Ago" time stamp plugin. Examples: "Yesterday at 1:42pm", "About an hour ago", "August 14 at 4:00am", and more! It automagically selects to display more/less data depending on how recent the post was.
+## WordPress GitHub Shortcode (WPGitHubShortcode)
+A nice little plugin for displaying a "get xxx on github" button for your repositories in WordPress using a simple shortcode!
 
 ## Installation
-To install the plugin, download the zipball from GitHub and unzip. Upload the `WPFBTimestamp` folder to `wp/wp-content/plugins/`
+To install the plugin, download the zipball from GitHub and unzip. Upload the `WPGitHubShortcode` folder to `wp/wp-content/plugins/`
+
+## Usage
+To use WPGitHubShortcode simply insert this shortcode into your WordPress post: `[github repo="user/project"]`
 
 
-~Current Version:0.1~
+~Current Version:1.0~
