@@ -1,0 +1,85 @@
+/*/
+ * CORE
+/*/
+.github_button {
+	width: 100%;
+	border-radius: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.1);
+	cursor:pointer;	
+}
+
+
+
+.github_button a {
+	font-family: "Helvetica";
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	font-weight: 100;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.github_button a:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*/
+ * THEMES
+/*/
+
+
+.blue {
+	background-color: #4586C2;
+	background-image: linear-gradient(bottom, rgb(57,126,186) 23%, rgb(101,160,219) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(57,126,186) 23%, rgb(101,160,219) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(57,126,186) 23%, rgb(101,160,219) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(57,126,186) 23%, rgb(101,160,219) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(57,126,186) 23%, rgb(101,160,219) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.23, rgb(57,126,186)),
+		color-stop(1, rgb(101,160,219))
+	);
+}
+
+.blue:hover {
+	background-image: linear-gradient(bottom, rgb(68,141,196) 23%, rgb(100,163,227) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(68,141,196) 23%, rgb(100,163,227) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(68,141,196) 23%, rgb(100,163,227) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(68,141,196) 23%, rgb(100,163,227) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(68,141,196) 23%, rgb(100,163,227) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.23, rgb(68,141,196)),
+		color-stop(1, rgb(100,163,227))
+	);
+}
+
+.blue:active {
+	background-image: linear-gradient(bottom, rgb(46,107,156) 23%, rgb(79,129,179) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(46,107,156) 23%, rgb(79,129,179) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(46,107,156) 23%, rgb(79,129,179) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(46,107,156) 23%, rgb(79,129,179) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(46,107,156) 23%, rgb(79,129,179) 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.23, rgb(46,107,156)),
+		color-stop(1, rgb(79,129,179))
+	);
+}
+
